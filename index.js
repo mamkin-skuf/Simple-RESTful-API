@@ -21,6 +21,8 @@ const taskSchema = new mongoose.Schema({
     completed: { type: Boolean, default: false }
 });
 
+
+
 const Task = mongoose.model('Task', taskSchema);
 
 // Get all tasks
